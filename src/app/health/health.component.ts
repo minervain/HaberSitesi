@@ -13,7 +13,7 @@ export class HealthComponent implements OnInit {
   constructor(private _service : NewsapiserviceService) { }
 
   ngOnInit(): void {
-    this._service.businessNews().subscribe((result=> {
+    this._service.healthNews().subscribe((result=> {
       this.articles = result.articles;
     }));
   }

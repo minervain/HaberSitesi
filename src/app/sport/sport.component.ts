@@ -13,7 +13,7 @@ export class SportComponent implements OnInit {
   constructor(private _service : NewsapiserviceService) { }
 
   ngOnInit(): void {
-    this._service.businessNews().subscribe((result=> {
+    this._service.sportNews().subscribe((result=> {
       this.articles = result.articles;
     }));
   }

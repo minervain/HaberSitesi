@@ -31,7 +31,7 @@ export class NewsapiserviceService {
     return this._http.get(this.healthApiUrl)
   }
   sportNews() :Observable<any>{
-    return this._http.get(this.healthApiUrl)
+    return this._http.get(this.sportApiUrl)
   }
 
 }
