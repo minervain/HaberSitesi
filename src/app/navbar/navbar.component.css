@@ -1,0 +1,70 @@
+.navbar-nav  a:hover:not(#active) {
+    background-color: #36d691;
+  }
+ .navbar-nav #active {
+    background-color: #000000;
+  }
+
+
+nav {
+    background-color: green;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li a:hover {
+    background-color: #fff0f0;
+  }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li:hover>a {
+    background-color: #4CAF50;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #333;
+    padding: 0;
+}
+
+nav ul ul li {
+    float: none;
+    width: 200px;
+}
+
+nav ul ul a {
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+nav ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+nav ul li:hover>ul {
+    display: inherit;
+}

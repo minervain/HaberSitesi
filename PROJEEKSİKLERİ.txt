@@ -1,0 +1,12 @@
+1- Apiden çekilen imagelerin değeri null olduğu için imageleri hepsini sondakika.jpeg yaptım.
+
+2-Slider'a apiden gelen ilk 3 haberi koyamadım.
+
+3-
+
+4
+
+5
+
+6
+
