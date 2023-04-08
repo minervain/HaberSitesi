@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NewsapiserviceService } from '../services/newsapiservice.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private newsApi:NewsapiserviceService) { }
 
   ngOnInit(): void {
   }
 
-}
+  search(searchText:string):void{
+    console.log(searchText)
+
+  }
+  }
+
+
+

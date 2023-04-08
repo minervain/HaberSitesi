@@ -7,7 +7,7 @@
       <div class="navbar-right">
         <form class="navbar-form navbar-left">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Arama...">
+            <input type="text" class="form-control" placeholder="Arama..." #searchText (keyup)="search(searchText.value)">
 
           </div>
         </form>
